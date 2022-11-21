@@ -47,3 +47,11 @@ select min(SALARY) from EMPLOYEES;
 -- find max salary
 select max(SALARY) from EMPLOYEES;
 
+--find salary average
+select avg(SALARY) from EMPLOYEES;
+
+--round
+select round(avg(SALARY),2) from EMPLOYEES;
+
+select round(avg(SALARY)) from EMPLOYEES;
+
